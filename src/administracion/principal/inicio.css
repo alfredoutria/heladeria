@@ -1,0 +1,263 @@
+
+
+.CarouselEscritorio{
+    display: inline;
+}
+
+.CarouselMovil {
+    display: none;
+  
+ }
+
+.imagenCarrusel {
+    display: block;
+    width: 100%;
+    height: 450px;
+}
+
+.Primercontainer{
+    max-width:100%;
+    background: rgb(219, 183, 226);
+    color:rgb(124, 7, 139); 
+    font-weight: bold;
+    text-align: center;
+}
+.PrimerRow{
+    text-align:center;
+    max-width:100%; 
+    width:100%;
+    display:flex;
+}
+
+.PrimerImg{
+ width:300px;
+ margin-top: 10px;
+ float: right;
+}
+
+
+.PrimerColderecha{
+
+    margin-top:50px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+.containerVerProductos{
+ 
+    max-width:100%;
+    background: rgb(255, 255, 255);
+    color:rgb(124, 7, 139); 
+    font-weight: bold;
+    display: block;
+}
+
+.RowVerProductos{
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: white;
+}
+
+
+.ColMensajeDomicilio{
+    color: red;
+}
+
+.containerMensaje{
+    max-width:100%;
+    background: rgb(255, 255, 255);
+    color:rgb(124, 7, 139); 
+    font-weight: bold;
+    display: block;
+}
+
+.RowMensaje{
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: white;
+}
+
+.iconoWhatsapp{
+    width: 40px;
+    border-radius: 30px;
+}
+
+
+.Segundocontainer{
+    max-width:100%;
+    background: rgb(201, 201, 201);
+    color:rgb(124, 7, 139); 
+    font-weight: bold;
+    text-align: center;
+}
+.SegundoRow{
+    text-align:center;
+    max-width:100%; 
+    width:100%;
+    display:flex;
+}
+
+.SegundoImg{
+ width:350px;
+ margin-top: 10px;
+ float:left;
+ 
+}
+
+.SegundoColizquierda{
+    margin-top:50px;
+    right: 10px;
+    font-size: 25px;
+    text-align:justify;
+
+}
+
+.SegundoColderecha{
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+   
+}
+
+.SegundocontainerMovil{
+    display: none;
+}
+
+.iconoEscribirWhatsapp{
+    right: 20px;
+    bottom: 30px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    z-Index: 1;
+    margin-top: -100px;
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .CarouselEscritorio{
+        display: none;
+    }
+
+    .CarouselMovil {
+        margin-top: 20px;
+       display: block;
+       z-index: 1;
+     
+    }
+
+    .imagenCarrusel{
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+
+    .PrimerImg{
+        width:80%;
+        margin-top: 10px;
+        float: right;
+       }
+
+       .PrimerColderecha{
+        width: 100%;
+        margin-top: -1px;
+        margin-left: 10px;
+        font-size: 17px;
+        text-align: justify;
+    }
+
+
+    .containerVerProductos{
+ 
+        max-width:100%;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        color:rgb(124, 7, 139); 
+        font-weight: bold;
+        display: block;
+    }
+    
+    .RowVerProductos{
+        padding: 30px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        background: white;
+    }
+
+
+   .Segundocontainer{
+    display: none;
+
+   }
+    .SegundocontainerMovil{
+        display: block;
+        max-width:100%;
+        background: rgb(201, 201, 201);
+        color:rgb(124, 7, 139); 
+        font-weight: bold;
+        text-align: center;
+        bottom: 0px;
+
+    }
+
+    .SegundoRowMovil{
+        text-align:center;
+        max-width:100%; 
+        width:100%;
+        display:flex;
+    }
+
+    .SegundoImgMovil{
+        width:90%;
+        margin-top: 10px;
+        float: right;
+       }
+
+
+       
+       .SegundoColderechaMovil{
+           width: 100%;
+           margin-left: 10px;
+           font-size: 17px;
+           text-align: justify;
+          
+       }
+
+       .containerMensaje{
+        max-width:100%;
+        background: rgb(255, 255, 255);
+        color:rgb(124, 7, 139); 
+        font-weight: bold;
+        display: block;
+    }
+    
+    .RowMensaje{
+        padding: 30px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        background: white;
+    }
+    
+    .iconoWhatsapp{
+        width: 25px;
+        border-radius: 30px;
+    }
+
+    .iconoEscribirWhatsapp{
+        position: fixed;
+        width: 45px;
+        height: 45px;
+    }
+
+
+
+}

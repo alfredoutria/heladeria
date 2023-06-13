@@ -1,0 +1,162 @@
+
+
+.logoMenu{
+    display: none;
+ }
+
+
+ 
+
+.titulo{
+      margin-left: 70px;
+      font-size: 22px;
+      color: white; 
+      text-shadow: 2px 2px 2px black;
+      position: absolute; 
+      margin-top: 22px;
+}
+
+.ulComputador{
+    float: left;
+    margin-top: 20px;
+    margin-left: 750px; 
+    position: relative; 
+    list-style: none;
+    color: white; 
+    font-size: 22px; 
+    text-shadow: 2px 2px 2px black
+}
+
+.ulComputador .liComputador{
+    float: left; margin-right: 20px;
+    
+}
+
+.panel{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px;
+    color:  #7e0b61;
+    text-shadow: 2px 2px 2px black;
+}
+
+.letra-seccion{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.contenedor-agregarImagen{
+    margin-bottom: 50px;
+}
+.agregar-imagen{
+  
+   padding: 15px;
+   text-decoration: none;
+   background: #7e0b61;
+   border-radius: 100px;
+   color: white;
+   font-size: 30px;
+}
+
+.contenedor-seccion{
+    border: 2px solid #7e0b61;;
+    width: 90%;
+    height: 0px auto;
+    overflow: hidden;
+    margin:  0px auto;
+    
+}
+
+section{
+    float: left; 
+    text-align: center; 
+    margin-left: 100px; 
+    margin-bottom: 50px;
+    
+}
+
+.imagen{
+    width: 200px; 
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    margin-bottom: 20px;
+}
+
+.modificar-eliminar{
+    color:  transparent;
+    font-size: 27px;
+    color: red;
+    text-decoration: none;
+}
+
+
+
+.contenedor-productos{
+    border-style: 2px black inset; 
+    text-shadow: 3px 3px 3px black; 
+    margin-top: -20px; 
+    color: white; 
+    text-align: center; 
+    font-size: 27px; 
+    width: 250px; 
+    background-color: black; 
+    border-top-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    border: 2px solid black;
+}
+
+ footer{
+    margin-bottom: 0px;
+ }
+
+@media only screen and (max-width: 800px) {
+
+    .logo{
+        display: none;
+      }
+    
+      .logoMenu{
+        display: inline;
+        position: absolute;
+        margin-top: 19px;;
+        width: 45px;
+        height: 45px;
+      }
+
+      .panel{
+         margin-top: 40px;
+          font-size: 30px;
+      }
+
+      .agregar-imagen{
+          font-size: 20px;
+      }
+
+      .imagen{
+        width: 100%;
+    }
+
+      .letra-seccion{
+        font-size: 30px;
+       
+    }
+
+    .contenedor-productos{
+        width: 100%;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+
+   .modificar-eliminar{
+       font-size: 22px;
+   }
+
+   footer{
+    margin-bottom: 0px;
+   }
+}
